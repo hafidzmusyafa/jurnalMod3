@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            display = new TextBox();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -38,19 +38,20 @@
             button7 = new Button();
             button8 = new Button();
             button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
+            button0 = new Button();
+            buttonEq = new Button();
+            buttonPlus = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // display
             // 
-            textBox1.Location = new Point(43, 42);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(294, 69);
-            textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
+            display.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            display.Location = new Point(43, 42);
+            display.Multiline = true;
+            display.Name = "display";
+            display.Size = new Size(294, 69);
+            display.TabIndex = 0;
+            display.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 
@@ -151,47 +152,47 @@
             button9.UseVisualStyleBackColor = true;
             button9.Click += button9_Click;
             // 
-            // button10
+            // button0
             // 
-            button10.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button10.Location = new Point(243, 130);
-            button10.Name = "button10";
-            button10.Size = new Size(94, 72);
-            button10.TabIndex = 10;
-            button10.Text = "0";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += button10_Click;
+            button0.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button0.Location = new Point(243, 130);
+            button0.Name = "button0";
+            button0.Size = new Size(94, 72);
+            button0.TabIndex = 10;
+            button0.Text = "0";
+            button0.UseVisualStyleBackColor = true;
+            button0.Click += button10_Click;
             // 
-            // button11
+            // buttonEq
             // 
-            button11.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button11.Location = new Point(143, 130);
-            button11.Name = "button11";
-            button11.Size = new Size(94, 72);
-            button11.TabIndex = 11;
-            button11.Text = "=";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
+            buttonEq.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonEq.Location = new Point(143, 130);
+            buttonEq.Name = "buttonEq";
+            buttonEq.Size = new Size(94, 72);
+            buttonEq.TabIndex = 11;
+            buttonEq.Text = "=";
+            buttonEq.UseVisualStyleBackColor = true;
+            buttonEq.Click += button11_Click;
             // 
-            // button12
+            // buttonPlus
             // 
-            button12.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button12.Location = new Point(43, 130);
-            button12.Name = "button12";
-            button12.Size = new Size(94, 72);
-            button12.TabIndex = 12;
-            button12.Text = "+";
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += button12_Click;
+            buttonPlus.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonPlus.Location = new Point(43, 130);
+            buttonPlus.Name = "buttonPlus";
+            buttonPlus.Size = new Size(94, 72);
+            buttonPlus.TabIndex = 12;
+            buttonPlus.Text = "+";
+            buttonPlus.UseVisualStyleBackColor = true;
+            buttonPlus.Click += button12_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(383, 462);
-            Controls.Add(button12);
-            Controls.Add(button11);
-            Controls.Add(button10);
+            Controls.Add(buttonPlus);
+            Controls.Add(buttonEq);
+            Controls.Add(button0);
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -201,7 +202,7 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(textBox1);
+            Controls.Add(display);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -210,7 +211,7 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox display;
         private Button button1;
         private Button button2;
         private Button button3;
@@ -220,8 +221,8 @@
         private Button button7;
         private Button button8;
         private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
+        private Button button0;
+        private Button buttonEq;
+        private Button buttonPlus;
     }
 }

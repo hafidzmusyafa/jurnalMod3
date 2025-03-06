@@ -1,0 +1,17 @@
+D:\1\jurnal3\bin\Debug\net8.0-windows\jurnal3.exe
+D:\1\jurnal3\bin\Debug\net8.0-windows\jurnal3.deps.json
+D:\1\jurnal3\bin\Debug\net8.0-windows\jurnal3.runtimeconfig.json
+D:\1\jurnal3\bin\Debug\net8.0-windows\jurnal3.dll
+D:\1\jurnal3\bin\Debug\net8.0-windows\jurnal3.pdb
+D:\1\jurnal3\obj\Debug\net8.0-windows\jurnal3.Form1.resources
+D:\1\jurnal3\obj\Debug\net8.0-windows\jurnal3.csproj.GenerateResource.cache
+D:\1\jurnal3\obj\Debug\net8.0-windows\jurnal3.GeneratedMSBuildEditorConfig.editorconfig
+D:\1\jurnal3\obj\Debug\net8.0-windows\jurnal3.AssemblyInfoInputs.cache
+D:\1\jurnal3\obj\Debug\net8.0-windows\jurnal3.AssemblyInfo.cs
+D:\1\jurnal3\obj\Debug\net8.0-windows\jurnal3.csproj.CoreCompileInputs.cache
+D:\1\jurnal3\obj\Debug\net8.0-windows\jurnal3.sourcelink.json
+D:\1\jurnal3\obj\Debug\net8.0-windows\jurnal3.dll
+D:\1\jurnal3\obj\Debug\net8.0-windows\refint\jurnal3.dll
+D:\1\jurnal3\obj\Debug\net8.0-windows\jurnal3.pdb
+D:\1\jurnal3\obj\Debug\net8.0-windows\jurnal3.genruntimeconfig.cache
+D:\1\jurnal3\obj\Debug\net8.0-windows\ref\jurnal3.dll
